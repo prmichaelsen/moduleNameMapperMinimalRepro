@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "outDir": "./build/tsc/",
+    "lib": ["es5", "dom"],
+    "target": "es5",
+    "module": "ES6",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "typeRoots": [
+      "_global-types",
+      "node_modules/@types"
+    ],
+    "paths": {
+      "@Components/*": ["src/js/components/*"],
+      "@Core/*": ["src/js/core/*"],
+      "@State/*": ["src/js/data/state/*"],
+      "@Reducers/*": ["src/js/data/reducers/*"],
+      "@Actions/*": ["src/js/data/actions/*"],
+      "@Normalizers/*": ["src/js/data/normalizers/*"],
+      "@Selectors/*": ["src/js/data/selectors/*"],
+      "@Globals/*": ["src/js/globals/*"],
+      "@Models/*": ["src/js/models/*"],
+      "@IntegrationCommon/*": ["src/js/integration/common/*"],
+      "@DetailPageIntegration/*": ["src/js/integration/detailPage/*"],
+      "@OlpIntegration/*": ["src/js/integration/olp/*"],
+      "@LocalDebugIntegration/*": ["src/js/integration/localDebug/*"],
+      "@PreviewIntegration/*": ["src/js/integration/preview/*"],
+      "@PhotoEditorIntegration/*": ["src/js/integration/photoEditor/*"],
+      "@Thunks/*": ["src/js/thunks/*"],
+      "@Utils/*": ["src/js/utils/*"],
+      "@Constants/*": ["src/js/constants/*"]
+    },
+    "jsx": "react",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictFunctionTypes": true,
+    "pretty": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "./src/js/**/*"
+  ]
+}

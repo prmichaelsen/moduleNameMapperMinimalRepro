@@ -1,0 +1,76 @@
+{
+  "name": "module-name-mapper-minimal-repro",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npm run jest",
+    "jest": "jest --colors --coverage",
+    "jest:clean": "jest --clearCache",
+    "test:watch": "jest --watchAll --colors --coverage"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.18.6",
+    "@babel/runtime-corejs3": "^7.20.13",
+    "@types/accounting": "^0.4.1",
+    "@types/jest": "^24.9.1",
+    "@types/jquery": "^1.10.27",
+    "@types/node": "^17.0.36",
+    "@types/react": "^16.8.6",
+    "@types/react-dom": "^18.0.5",
+    "@types/styled-components": "^5.1.25",
+    "core-js": "^3.27.2",
+    "css-loader": "^0.28.11",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-import-resolver-jest": "^2.1.1",
+    "eslint-import-resolver-webpack": "^0.10.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.22.1",
+    "identity-obj-proxy": "^3.0.0",
+    "inquirer": "^9.2.6",
+    "jest": "^24.9.0",
+    "jest-canvas-mock": "^2.3.1",
+    "jest-extended": "^0.11.5",
+    "jquery": "^3.3.1",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-fetch": "^3.3.1",
+    "sass": "^1.60.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^0.23.1",
+    "ts-jest": "^24.3.0",
+    "ts-loader": "^9.4.2",
+    "tsconfig-paths-jest": "0.0.1",
+    "tslint": "^6.1.3",
+    "tslint-config-airbnb": "^5.11.0",
+    "typescript": "^4.9.4",
+    "webpack": "^5.75.0",
+    "webpack-bundle-analyzer": "^4.7.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dashboard": "^3.3.7",
+    "webpack-dev-server": "^4.11.1",
+    "webpack-merge": "^5.8.0"
+  },
+  "overrides": {
+    "eslint-config-airbnb": {
+      "eslint": "^7.32.0"
+    },
+    "tslint-config-airbnb": {
+      "tslint": "^6.1.3"
+    },
+    "@fimbul/bifrost": {
+      "tslint": "^6.1.3"
+    },
+    "mini-css-extract-plugin": {
+      "webpack": "^5.75.0"
+    },
+    "tslint-eslint-rules": {
+      "typescript": "^4.9.4",
+      "tslint": "^6.1.3"
+    },
+    "tslint-microsoft-contrib": {
+      "typescript": "^4.9.4",
+      "tslint": "^6.1.3"
+    }
+  }
+}
